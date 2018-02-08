@@ -6,3 +6,5 @@ data:
   local-url: aHR0cHM6Ly9rdWJlcm5ldGVzLmRlZmF1bHQ=
   starter-ca-central-1-url: aHR0cHM6Ly9hcGkuc3RhcnRlci1jYS1jZW50cmFsLTEub3BlbnNoaWZ0LmNvbQ==
   starter-ca-central-1-token: ZmFrZQ==
+  starter-us-west-1-url: aHR0cHM6Ly9hcGkuc3RhcnRlci11cy13ZXN0LTEub3BlbnNoaWZ0LmNvbQ==
+  starter-us-west-1-token: ZmFrZQ==
