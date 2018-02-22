@@ -3,7 +3,10 @@ kind: Secret
 metadata:
   name: clusters-secret
 stringData:
-  local-url: 'https://kubernetes.default'
+  local-ci-pr-url: 'https://kubernetes.default'
+  local-ci-pr-token: fake
+  local-ci-master-url: 'https://kubernetes.default'
+  local-ci-master-token: fake
   starter-ca-central-1-url: 'https://api.starter-ca-central-1.openshift.com'
   starter-ca-central-1-token: fake
   starter-us-west-1-url: 'https://api.starter-us-west-1.openshift.com'
