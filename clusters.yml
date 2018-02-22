@@ -2,9 +2,9 @@ apiVersion: v1
 kind: Secret
 metadata:
   name: clusters-secret
-data:
-  local-url: aHR0cHM6Ly9rdWJlcm5ldGVzLmRlZmF1bHQ=
-  starter-ca-central-1-url: aHR0cHM6Ly9hcGkuc3RhcnRlci1jYS1jZW50cmFsLTEub3BlbnNoaWZ0LmNvbQ==
-  starter-ca-central-1-token: ZmFrZQ==
-  starter-us-west-1-url: aHR0cHM6Ly9hcGkuc3RhcnRlci11cy13ZXN0LTEub3BlbnNoaWZ0LmNvbQ==
-  starter-us-west-1-token: ZmFrZQ==
+stringData:
+  local-url: 'https://kubernetes.default'
+  starter-ca-central-1-url: 'https://api.starter-ca-central-1.openshift.com'
+  starter-ca-central-1-token: fake
+  starter-us-west-1-url: 'https://api.starter-us-west-1.openshift.com'
+  starter-us-west-1-token: fake
