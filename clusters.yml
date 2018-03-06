@@ -9,5 +9,9 @@ stringData:
   local-ci-master-token: fake
   starter-ca-central-1-url: 'https://api.starter-ca-central-1.openshift.com'
   starter-ca-central-1-token: fake
+  starter-us-east-1-url: 'https://api.starter-us-east-1.openshift.com'
+  starter-us-east-1-token: fake
   starter-us-west-1-url: 'https://api.starter-us-west-1.openshift.com'
   starter-us-west-1-token: fake
+  starter-us-west-2-url: 'https://api.starter-us-west-2.openshift.com'
+  starter-us-west-2-token: fake
