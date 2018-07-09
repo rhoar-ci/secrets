@@ -3,6 +3,8 @@ kind: Secret
 metadata:
   name: clusters-secret
 stringData:
+  local-ci-main-url: 'https://kubernetes.default'
+  local-ci-main-token: fake
   local-ci-pr-url: 'https://kubernetes.default'
   local-ci-pr-token: fake
   local-ci-master-url: 'https://kubernetes.default'
